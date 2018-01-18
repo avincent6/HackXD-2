@@ -1,0 +1,33 @@
+/* Colors
+
+Blue #2AACE2
+Yellow #FFF200
+*/
+body {
+  margin: 0 auto;
+  width: 100%
+}
+h1 {
+  font-family: "sans-serif"
+}
+.aspot {
+  margin: 0 auto;
+  vertical-align: middle;
+  height: 90vh
+}
+.left {
+  display: inline-block;
+  width: 40%;
+
+}
+.left img {
+  max-height: 250px;
+  width: 50%;
+  vertical-align: middle;
+}
+.right {
+  display: inline-block;
+  width: 20%;
+  text-align: left;
+  vertical-align: middle;
+}
