@@ -7,6 +7,7 @@ body {
   font-family: 'Gilroy';
   margin: 0 auto;
   color:#2AACE2;
+  text-align: center;
 }
 h1 {
   font-size: 40px;
@@ -14,10 +15,14 @@ h1 {
 }
 h3 {
   margin: 10px 0;
+  font-weight: lighter;
+}
+h2 {
+  margin-bottom: 7px;
 }
 .aspot {
   text-align: center;
-  padding: 150px 0 50px 0;
+  padding: 100px 0 20px 0;
   margin: 0 auto;
   vertical-align: middle;
 }
@@ -43,4 +48,38 @@ h3 {
 @font-face {
     font-family: 'Gilroy';
     src: url(Gilroy-Light.otf);
+}
+.sec {
+  text-align: center;
+  padding: 20px;
+  display: inline-block;
+}
+.email {
+  text-align: left;
+}
+input {
+  border: none;
+  font-family: 'Gilroy';
+  font-size: 1.17em;
+}
+#mce-EMAIL {
+
+  border-bottom: 1px solid #2AACE2;
+}
+input:focus {
+  outline: none;
+}
+label {
+  font-family: 'Gilroy';
+  font-size: 1.17em;
+}
+input:placeholder {
+  font-family: 'Gilroy';
+  font-size: 1.17em;
+}
+.button {
+  padding: 12px 20px;
+  margin-top: 10px;
+  background: #2AACE2;
+  color:white;
 }
