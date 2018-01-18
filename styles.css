@@ -29,7 +29,7 @@ h2 {
 }
 .left {
   display: inline-block;
-  width: 50%;
+  padding: 0 10%;
   vertical-align: middle;
 }
 .left img {
