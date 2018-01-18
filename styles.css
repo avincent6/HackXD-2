@@ -4,7 +4,7 @@ Blue #2AACE2
 Yellow #FFF200
 */
 body {
-  font-family: 'Gilroy';
+  font-family: 'Gilroy', 'Roboto', sans-serif;
   margin: 0 auto;
   color:#2AACE2;
   text-align: center;
@@ -50,7 +50,7 @@ h2 {
   width: 100%;
 }
 @font-face {
-    font-family: 'Gilroy';
+    font-family: 'Gilroy', 'Roboto', sans-serif;
     src: url(Gilroy-Light.otf);
 }
 .sec {
@@ -63,7 +63,7 @@ h2 {
 }
 input {
   border: none;
-  font-family: 'Gilroy';
+  font-family: 'Gilroy', 'Roboto', sans-serif;
   font-size: 1.17em;
 }
 #mce-EMAIL {
@@ -74,11 +74,11 @@ input:focus {
   outline: none;
 }
 label {
-  font-family: 'Gilroy';
+  font-family: 'Gilroy', 'Roboto', sans-serif;
   font-size: 1.17em;
 }
 input:placeholder {
-  font-family: 'Gilroy';
+  font-family: 'Gilroy', 'Roboto', sans-serif;
   font-size: 1.17em;
 }
 .button {
