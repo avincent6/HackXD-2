@@ -8,13 +8,14 @@ body {
   margin: 0 auto;
   color:#2AACE2;
   text-align: center;
+  min-height: 100vh;
 }
 h1 {
   font-size: 40px;
   margin-bottom: 10px;
 }
 h3 {
-  margin: 10px 0;
+  margin: 7px 0;
   font-weight: lighter;
 }
 h2 {
@@ -44,6 +45,9 @@ h2 {
 .footer {
   text-align: center;
   padding: 10px;
+  position: fixed;
+  bottom: 10px;
+  width: 100%;
 }
 @font-face {
     font-family: 'Gilroy';
@@ -63,7 +67,7 @@ input {
   font-size: 1.17em;
 }
 #mce-EMAIL {
-
+  width: 85%;
   border-bottom: 1px solid #2AACE2;
 }
 input:focus {
